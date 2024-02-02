@@ -1,6 +1,14 @@
 export const projects = [
   {
     title: "Treasure Hunt",
+    subtitle: "Rails and Bullet Train",
+    description:
+      "Using the Bullet Train framework for Ruby on Rails we are exploring adding gems, like pg_search, to an existing project and implementing new features",
+    image: "./practicum.png",
+    link: "https://github.com/learn-academy-2023-golf/learn-practicum-the-interns",
+  },
+  {
+    title: "Treasure Hunt",
     subtitle: "React",
     description:
       "I revisted the first project I built with JavaScript and completely rebuilt it in React with a focus on dynamic styling",
