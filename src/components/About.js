@@ -13,25 +13,35 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             A Navy veteran and and LEARN academy alumni with a focus on Rails
             and React.
+            <br className="hidden lg:inline-block" />
+            As a Sonar Technician I have 10 years of experience operating in
+            high-demand environments with attention to detail and the ability to
+            quickly adapt to new technologies and circumstances.
+            <br className="hidden lg:inline-block" />
+            After the Navy I spent 6 years working IT Support and I have
+            experiences supporting users over-the-phone, through remote
+            assistance, and in-person. I've got experience with troubleshooting
+            various operating systems and coding environments which will work to
+            my advantage no matter what tech stack the job requires.
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://www.linkedin.com/in/coreycass/"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
-              Contact
+              LinkedIn
             </a>
             <a
-              href="#projects"
+              href="https://github.com/TheLavitz"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Projects
+              GitHub
             </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-full"
             alt="hero"
             src="./corey.jpg"
           />
