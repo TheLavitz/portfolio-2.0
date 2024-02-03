@@ -1,11 +1,19 @@
 export const projects = [
   {
+    title: "LEARN Notes",
+    subtitle: "Rails and Bullet Train",
+    description:
+      "Using the Bullet Train framework for Ruby on Rails we are exploring adding gems, like pg_search, to an existing project and implementing new features",
+    image: "./practicum.png",
+    repo: "https://github.com/learn-academy-2023-golf/learn-practicum-the-interns",
+  },
+  {
     title: "Treasure Hunt",
     subtitle: "React",
     description:
-      "I revisted the first project I built with JavaScript and completely rebuilt it in React with a focus on dynamic styling",
+      "I revisted the first project I built with JavaScript and completely rebuilt it in React with a focus on dynamic styling. CSS was at the forefront of this project.",
     image: "./treasure-hunt.png",
-    link: "https://corey-cass-treasurehunt.onrender.com/",
+    repo: "https://github.com/TheLavitz/treasurehunt",
   },
   {
     title: "Cat Tinder",
@@ -13,7 +21,7 @@ export const projects = [
     description:
       "A React applications with a Rails backend using a PostgreSQL database. Our focus here was to learn about handling CRUD functionality.",
     image: "./cat-tinder.png",
-    link: "https://github.com/learn-academy-2023-golf/cat-tinder-backend-cc-em-cat-tinder",
+    repo: "https://github.com/learn-academy-2023-golf/cat-tinder-backend-cc-em-cat-tinder",
   },
   {
     title: "Text Based Game",
@@ -21,7 +29,7 @@ export const projects = [
     description:
       "A Ruby application that handles text input and leads the user through a series of options generating outcomes based on choices the user makes.",
     image: "./text-based-game.png",
-    link: "https://github.com/learn-academy-2023-golf/text-based-game-ces",
+    repo: "https://github.com/learn-academy-2023-golf/text-based-game-ces",
   },
 ];
 
@@ -43,10 +51,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "Ruby on Rails",
-  "Ruby",
-  "React",
-  "JavaScript",
-  "Jest",
-  "PostgreSQL",
+  { name: "Ruby on Rails", icon: "ruby-plain" },
+  { name: "Ruby", icon: "DiRuby" },
+  { name: "React", icon: "react-original" },
+  { name: "JavaScript", icon: "javascript-plain" },
+  { name: "Jest", icon: "jest-plain" },
+  { name: "PostgreSQL", icon: "postgresql-plain" },
+  { name: "RSpec", icon: "rspec-original" },
+  { name: "Tailwind", icon: "tailwindcss-plain" },
 ];
